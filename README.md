@@ -126,10 +126,10 @@ http://localhost:5173
 ---
 
 ## 📸 Screenshots
-![alt text](<Screenshot (675)(1).png>)
-![alt text](<Screenshot (674)(1).png>)
-![alt text](<Screenshot (676)(1).png>)
-![alt text](<Screenshot (677)(1).png>)
+(<Screenshot (675)(1).png>)
+(<Screenshot (674)(1).png>)
+(<Screenshot (676)(1).png>)
+(<Screenshot (677)(1).png>)
 ---
 
 ## ⚠️ Notes
@@ -152,8 +152,4 @@ http://localhost:5173
 
 **Himabindu**
 
----
 
-## ⭐ If you like this project
-
-Give it a star on GitHub ⭐
