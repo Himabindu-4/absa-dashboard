@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# ML Models (CRITICAL)
+backend/asc_model/
+backend/ate_model/
+backend/results/
+backend/backend/
+
+# Model files
+*.pt
+*.bin
+*.h5
+*.pkl
+*.json
+*.safetensors
+*.pth
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

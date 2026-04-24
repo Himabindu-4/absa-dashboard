@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #020617;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.nav-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #1e293b;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  background: #22c55e;
+  color: black;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* TOP BAR */
+.top-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.top-bar input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  flex: 1;
+}
+
+.top-bar button {
+  background: #06b6d4;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* KPI */
+.kpi-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.kpi-card {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+  background: #1e293b;
+}
+
+.kpi-card.positive {
+  background: #14532d;
+}
+
+.kpi-card.negative {
+  background: #7f1d1d;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* HOVER EFFECT */
+.hover:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
