@@ -1,27 +1,27 @@
-# 🧠 ABSA Dashboard (Aspect-Based Sentiment Analysis)
+# ABSA Dashboard (Aspect-Based Sentiment Analysis)
 
 An end-to-end web application that performs **Aspect-Based Sentiment Analysis (ABSA)** on user reviews.
 It extracts aspects (features), determines sentiment (positive, negative, neutral), and visualizes insights through an interactive dashboard.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🔍 **Aspect Extraction (ATE)** – Identifies key aspects from text
-* 😊 **Sentiment Classification (ASC)** – Classifies sentiment per aspect
-* 📊 **Interactive Dashboard**
+* **Aspect Extraction (ATE)** – Identifies key aspects from text
+* **Sentiment Classification (ASC)** – Classifies sentiment per aspect
+* **Interactive Dashboard**
 
   * Sentiment Pie Chart
   * Aspect Distribution Bar Chart
   * Trend Analysis
-* ☁️ **Word Cloud Visualization**
-* 📁 **Upload Reviews (CSV/Excel/Text)**
-* ✍️ **Manual Review Input**
-* ⚡ Fast API backend + modern React frontend
+* **Word Cloud Visualization**
+* **Upload Reviews (CSV/Excel/Text)**
+* **Manual Review Input**
+*  Fast API backend + modern React frontend
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 
@@ -38,7 +38,7 @@ It extracts aspects (features), determines sentiment (positive, negative, neutra
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 absa-dashboard/
@@ -62,7 +62,7 @@ absa-dashboard/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 🔹 1. Clone the Repository
 
@@ -107,12 +107,12 @@ npm run dev
 Frontend runs at:
 
 ```
-http://localhost:5173
+http://localhost:3005
 ```
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 1. User uploads reviews or enters text
 2. Backend processes text using ABSA pipeline
@@ -125,21 +125,14 @@ http://localhost:5173
 
 ---
 
-## 📸 Screenshots
-(<Screenshot (675)(1).png>)
-(<Screenshot (674)(1).png>)
-(<Screenshot (676)(1).png>)
-(<Screenshot (677)(1).png>)
----
-
-## ⚠️ Notes
+##  Notes
 
 * Large ML model files are excluded from this repository
 * Models can be loaded/downloaded separately
 
 ---
 
-## 🎯 Future Improvements
+## Future Improvements
 
 * Deploy to cloud (Render / Vercel)
 * Add user authentication
@@ -148,7 +141,7 @@ http://localhost:5173
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Himabindu**
 
