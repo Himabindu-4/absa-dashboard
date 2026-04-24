@@ -6,3 +6,5 @@ python-dotenv
 pydantic
 pandas
 python-multipart
+transformers
+torch
